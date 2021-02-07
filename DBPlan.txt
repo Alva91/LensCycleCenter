@@ -1,0 +1,23 @@
+Database per website API if available otherwise supplier based
+Include markup, have default but can be set per item
+Credentials database for login (must be secure)
+Database for in-house services like labor costs per item performed like brake bleeding
+
+item name, cost price, markup percentage, stock available, priority
+priorty used to determine if should be notified of low stock and how often
+
+2 logins to be able to edit the database of items and services. 
+
+User database, can store details of bikes available(also new db) and lists of services performed 
+(which would probable be another database stored by user id)
+
+1. Set up a database for 1 supplier (need to check if site has API access otherwise manually insert). 
+    ask len for one of them
+2. Services database
+3. Login database
+4. Bike database
+5. History database
+6. Order database
+
+Use c# or c++ for db stuff
+Javascript for web stuffs
